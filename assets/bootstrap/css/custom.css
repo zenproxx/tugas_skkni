@@ -1,0 +1,140 @@
+#top-bar{background: #111; color: #fff; padding: 7px 10px; letter-spacing: 1px;}
+
+.link{padding: 7px 10px; margin: 0;}
+.link a{color: #fff; text-decoration: none;}
+.link:hover a{color:deepskyblue;}
+
+.navbar-default{margin: 0; border-bottom: 2px solid #999; border-radius: 0;}
+.navbar-brand{font-family: 'Fjalla One', sans-serif; font-weight: 500; letter-spacing: 2px; font-size: 30px;}
+.navbar{padding: 10px 10px;}
+.navbar-nav > li > a{font-weight: bold;}
+
+#hero{z-index: 2; height: 550px; padding: 30px 0px; background: #3494E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+
+.video{ z-index: 1;}
+.heading{font-family: 'pacifico'; font-size: 80px; color: #fff; margin-top: 120px;}
+.subheading{font-size: 20px; color: #fff; padding-bottom: 10px;}
+
+/* 2 Section */
+.section2{color: #fff;}
+.section2 .row .col-md-6{padding: 0;}
+.pertama{height: 100%; background: url(../../img/photo1.png) center center; background-size: cover;}
+.pertama .overlay{background: rgba(190,40,40,.3); height: 100%; padding: 100px 40px;}
+.pertama h3{margin-top: 0;}
+.kedua{height: 100%;background: url(../../img/photo2.jpg) center center; background-size: cover;}
+.kedua .overlay{background: rgba(50,90,190,.3); height: 100%; padding: 100px 40px;}
+.kedua h3{margin-top: 0;}
+
+
+/* testi */
+.testimonial{padding: 50px 0px;}
+.testimonial .container-fluid .row .col-md-4 .row{padding: 20px 0px;}
+.testimonial h2{text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px;}
+.testimonial img{border-radius: 50%; margin: 0px auto;}
+
+
+/* buttons */
+.btn-custom{
+    background: none;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0;
+    color: #ddd;
+    padding: 10px 30px;
+}
+
+.btn-custom:hover{
+    color: #e1f5fe;
+    background: #03a9f4;
+    border: 3px solid #03a9f4;
+    transition: 0.3s;
+}
+
+/* Error 404 */
+#error404{padding: 50px 0px; height: 400px; background: url(../../img/crossword.png);}
+.error-heading{font-size: 45px; font-weight: bold; color: #444; margin-top: 60px;}
+.error-subheading{font-size: 20px; color: #444;}
+
+
+/* footer */
+#footer{background: #222; padding: 30px 0px; color: #ccc;}
+.copyright{padding: 10px 5px; background: #222; color: #fff; border-top: 1px solid #999;}
+.copyright small{text-align: right;}
+
+/* Sosmed */
+.sosmed{padding: 10px 0px;}
+
+
+/* -- Artikel -- */
+#view{ padding: 30px 0px; background: #fafafa;}
+.artikel{background: #fff; width: 100%; box-shadow: 0px 2px 5px #ccc; padding: 50px;}
+.gambar-artikel{width: 100%;}
+.judul-artikel{font-size: 30px; margin-top: 30px; font-family: 'righteous';}
+.tags{font-family: 'rancho'; font-size: 20px; color: #039be5; margin-bottom: 30px;}
+.isi{padding: 10px 20px;}
+.isi > p {text-align: justify;}
+
+/* -- Register --*/
+#register{ padding: 20px 0px; background: url(../../img/pink%20dust.png);}
+
+/* -- Blog -- */
+#blog{ padding-bottom: 30px; background: url(../../img/crossword.png);}
+.text-wrapping > h3{position: absolute; top: 370px; left: 50px; color: #fff; letter-spacing: 2px; font-size: 30px; padding-left: 15px; border-left: 5px solid #03a9f4; text-transform: uppercase; font-weight: bold;}
+.text-wrapping > p{position: absolute; top: 430px; left: 50px; color: #fff; letter-spacing: 2px; padding-left: 20px; font-size: 17px; font-weight: bold; font-family: 'rancho'}
+.artikel-hero{width: 100%; margin: 0; padding: 0;}
+#daftar-artikel{padding: 40px 0px;}
+#daftar-artikel h4 {font-family: 'righteous'; color: #444;}
+.thumbnail{border-radius: 0; box-shadow: 0px 2px 0px #ddd;}
+.thumbnail > img{width: 100%; height: auto;}
+
+/* category */
+#category{background: url(../../img/bg-dashboard.jpg) center; background-size: cover; margin-bottom: 20px;}
+#category h1{margin: 0; padding: 50px 5px; text-transform: uppercase; letter-spacing: 2px; color: #fff;}
+.kategori-span { height: 300px; width: 100%; padding: 10px;}
+.kategori-span img{height:100%; width: 100%;}
+.kategori-span h4{position:relative; bottom: 60px; left: 10px; text-decoration: none; color: #fff;}
+.border{width: 40px; border-bottom: 3px solid #03a9f4; padding-top: 5px;}
+.kategori-span:hover a,img{text-decoration: none;}
+.kategori-span:hover h4{font-size: 20px; color:deepskyblue; transition: 0.2s;}
+
+/* scroll up */
+#scroll{position:fixed; padding: 5px 14px; left: 93%; top: 88%; background: rgba(255,255,255,.6); border-radius: 5px;}
+#scroll i{font-size: 40px; color: darkslategray;}
+
+/* Search */
+.search-list{background: #fefefe; padding: 5px 10px; margin-bottom: 10px;}
+
+.wrapper{background: url(../../img/crossword.png);}
+
+
+/* ----------------------- MOBILE FIRST ------------------------*/
+
+@media screen and (max-width: 450px){
+    .navbar{padding: 10px 0px;}
+    .navbar-brand{font-size: 16px;}
+    .sembunyi{display: none;}
+    .heading{font-size: 35px; margin-top: 70px;} #hero{height: 400px;}
+    .subheading{font-size: 15px;}
+    .artikel{padding: 20px 10px;}
+    .text-wrapping > h3{font-size: 20px; left: 10px;}
+    .text-wrapping > p{font-size: 17px; left: 10px;}
+    .carousel-caption,.carousel-caption>h3{display: none;}
+    #penawaran{padding: 10px 0px;}
+    #penawaran .container .row >h2{font-size: 20px;}
+    .dropdown-menu li a>img{border: none;}
+    #blog{padding: 20px 5px;}
+    #scroll{left: 75%;}
+    #scroll i{font-size: 25px;}
+    #category h1{font-size: 20px;}
+}
+
+@media screen and (max-width: 768px){
+    .carousel-caption>h3{font-size: 17px;}
+    #scroll{left: 85%}
+    #category h1{font-size: 30px;}
+}
+
+@media screen and (max-width: 1200px){}
